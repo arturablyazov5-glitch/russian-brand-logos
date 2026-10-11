@@ -4,7 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {
-  ROOT, LOGOS_DIR, CATALOG_PATH, CATALOG_URL, SITE, UTM, parseArgs, loadBrands, loadCatalog, checkSvg, idOf, rel,
+  ROOT, LOGOS_DIR, PREVIEWS_DIR, CATALOG_PATH, CATALOG_URL, SITE, UTM, parseArgs, loadBrands, loadCatalog, checkSvg, idOf, rel,
 } from './lib.mjs';
 
 const args = parseArgs(process.argv.slice(2), ['online']);
@@ -35,6 +35,17 @@ for (const f of svgs) {
   const r = checkSvg(fs.readFileSync(f));
   for (const e of r.errors) err(`${rel(f)}: ${e}`);
   for (const w of r.warnings) warn(`${rel(f)}: ${w}`);
+}
+
+// 1b. Preview cards in previews/: safe SVG, one per brand, no orphans.
+const prevFiles = fs.existsSync(PREVIEWS_DIR)
+  ? fs.readdirSync(PREVIEWS_DIR, { withFileTypes: true, recursive: true }).filter((d) => d.isFile()).map((d) => path.join(d.parentPath ?? d.path, d.name))
+  : [];
+const prevExpected = new Set(brandIds.map((id) => path.join(PREVIEWS_DIR, `${id}.svg`)));
+for (const f of prevFiles) {
+  checks++;
+  for (const e of checkSvg(fs.readFileSync(f)).errors) err(`${rel(f)}: ${e}`);
+  if (!prevExpected.has(f)) err(`orphan preview ${rel(f)}`);
 }
 
 // 2. Every brand has an SVG and is in the catalog; no orphans in logos/.
@@ -90,7 +101,8 @@ for (const id of brandIds) {
   checks++;
   const [cat, slug] = id.split('/');
   const catMd = mdText.get(path.join(LOGOS_DIR, cat, 'README.md')) ?? '';
-  if (!catMd.includes(`src="${slug}.svg"`)) err(`brand ${id}: not listed in logos/${cat}/README.md`);
+  if (!fs.existsSync(path.join(PREVIEWS_DIR, cat, `${slug}.svg`))) err(`brand ${id}: previews/${id}.svg is missing`);
+  if (!catMd.includes(`src="../../previews/${cat}/${slug}.svg"`)) err(`brand ${id}: not listed in logos/${cat}/README.md`);
   if (!home.includes(`logos/${cat}/README.md`)) err(`brand ${id}: category ${cat} not linked from README.md`);
 }
 

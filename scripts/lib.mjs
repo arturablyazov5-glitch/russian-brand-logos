@@ -6,13 +6,14 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const LOGOS_DIR = path.join(ROOT, 'logos');
 export const CATALOG_PATH = path.join(ROOT, 'data', 'catalog.json');
+export const PREVIEWS_DIR = path.join(ROOT, 'previews');
 export const REPORT_DIR = path.join(ROOT, 'reports');
 
 export const SITE = 'https://trace-logos.ru';
 export const CATALOG_URL = `${SITE}/logos/`;
 export const LOGOS_JSON_URL = `${SITE}/logos.json`;
 export const MANIFEST_URL = `${SITE}/logos/manifest.json`;
-export const UTM = 'utm_source=github&utm_medium=readme&utm_campaign=russian-brand-logos';
+export const UTM = 'utm_source=github&utm_medium=repository&utm_campaign=russian-brand-logos';
 
 export const MAX_SVG_BYTES = 1024 * 1024; // hard limit: larger files are rejected
 export const WARN_SVG_BYTES = 300 * 1024;
@@ -210,4 +211,25 @@ export function checkSvg(buf) {
     if (root !== 'svg') errors.push(root ? `root element is <${root}>, expected <svg>` : 'no <svg> element');
   }
   return { errors: [...new Set(errors)], warnings };
+}
+
+/**
+ * Wraps a logo into a fixed 160x96 white card so it stays visible on GitHub's light and dark themes
+ * (many logos are dark or white-on-transparent). The original is nested unchanged inside the card.
+ */
+export function makePreview(svgText) {
+  let src = svgText.replace(/^\uFEFF/, '').replace(/<\?xml[^>]*\?>/i, '').replace(/<!DOCTYPE[^>]*>/i, '').trim();
+  const root = src.match(/<svg\b[^>]*>/i);
+  if (!root) throw new Error('no <svg> root');
+  let tag = root[0];
+  if (!/\bviewBox\s*=/i.test(tag)) {
+    const num = (n) => parseFloat((tag.match(new RegExp(`\\b${n}\\s*=\\s*["']([\\d.]+)`, 'i')) || [])[1]);
+    const w = num('width'), h = num('height');
+    if (!(w > 0 && h > 0)) throw new Error('no viewBox and no usable width/height');
+    tag = tag.replace(/<svg\b/i, `<svg viewBox="0 0 ${w} ${h}"`);
+  }
+  tag = tag.replace(/\s(?:x|y|width|height)\s*=\s*(?:"[^"]*"|'[^']*')/gi, '');
+  tag = tag.replace(/<svg\b/i, '<svg x="14" y="14" width="132" height="68" preserveAspectRatio="xMidYMid meet"');
+  src = src.replace(root[0], tag);
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="160" height="96" viewBox="0 0 160 96"><rect x=".5" y=".5" width="159" height="95" rx="12" fill="#fff" stroke="#d0d7de"/>${src}</svg>\n`;
 }

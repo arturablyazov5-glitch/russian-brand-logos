@@ -4,7 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {
-  ROOT, LOGOS_DIR, CATALOG_URL, parseArgs, loadBrands, loadCatalog, writeIfChanged, idOf, withUtm,
+  ROOT, LOGOS_DIR, PREVIEWS_DIR, makePreview, CATALOG_URL, parseArgs, loadBrands, loadCatalog, writeIfChanged, idOf, withUtm,
   escHtml, pluralRu, rel, fail, isMain,
 } from './lib.mjs';
 
@@ -35,7 +35,7 @@ function grid(items, srcPrefix) {
   for (let i = 0; i < items.length; i += COLS) {
     const cells = items.slice(i, i + COLS).map((it) => {
       const name = escHtml(it.name);
-      return `<td align="center" width="120"><a href="${escHtml(withUtm(it.url))}"><img src="${srcPrefix}${it.slug}.svg" width="48" alt="${name}"><br><sub>${name}</sub></a></td>`;
+      return `<td align="center" width="120"><a href="${escHtml(withUtm(it.url))}"><img src="${srcPrefix}${it.slug}.svg" width="96" alt="${name}"><br><sub>${name}</sub></a></td>`;
     });
     rows.push(`<tr>\n${cells.join('\n')}\n</tr>`);
   }
@@ -63,7 +63,7 @@ function renderHome(cats, catalog) {
     `<a name="cat-${c.slug}"></a>`,
     `### ${c.en} · ${c.ru}`,
     '',
-    grid(c.items.slice(0, PREVIEW_ON_HOME), `logos/${c.slug}/`),
+    grid(c.items.slice(0, PREVIEW_ON_HOME), `previews/${c.slug}/`),
     '',
     `[All ${c.items.length} → · Все ${c.items.length} →](logos/${c.slug}/README.md)`,
   ].join('\n')).join('\n\n');
@@ -155,7 +155,7 @@ function renderCategory(c) {
 
 ${logosEn(n)} in this repository · ${logosRu(n)} в репозитории. The whole category with PNG and variants · Вся категория с PNG и вариантами: [trace-logos.ru](${catUrl})
 
-${grid(c.items, '')}
+${grid(c.items, `../../previews/${c.slug}/`)}
 `;
 }
 
@@ -209,6 +209,18 @@ export function render({ brands, catalog, available, dryRun = false }) {
     ...cats.map((c) => [path.join(LOGOS_DIR, c.slug, 'README.md'), renderCategory(c)]),
   ]);
   const changed = [];
+  const wanted = new Set();
+  for (const c of cats) for (const it of c.items) {
+    const dest = path.join(PREVIEWS_DIR, c.slug, `${it.slug}.svg`);
+    wanted.add(dest);
+    out.set(dest, makePreview(fs.readFileSync(path.join(LOGOS_DIR, c.slug, `${it.slug}.svg`), 'utf8')));
+  }
+  if (fs.existsSync(PREVIEWS_DIR)) {
+    for (const d of fs.readdirSync(PREVIEWS_DIR, { withFileTypes: true, recursive: true })) {
+      const f = path.join(d.parentPath ?? d.path, d.name);
+      if (d.isFile() && !wanted.has(f)) { if (!dryRun) fs.rmSync(f); changed.push(rel(f)); }
+    }
+  }
   for (const [p, text] of out) if (writeIfChanged(p, text, dryRun)) changed.push(rel(p));
   return { changed, cats };
 }

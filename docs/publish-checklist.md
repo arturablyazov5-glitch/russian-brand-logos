@@ -8,7 +8,7 @@ Run manually when the repository is published. Nothing here is run by scripts or
 ```bash
 gh repo create <owner>/russian-brand-logos --public --source . --push \
   --description "SVG logos of Russian brands · SVG-логотипы российских брендов" \
-  --homepage "https://trace-logos.ru/logos/?utm_source=github&utm_medium=readme&utm_campaign=russian-brand-logos"
+  --homepage "https://trace-logos.ru/logos/?utm_source=github&utm_medium=repository&utm_campaign=russian-brand-logos"
 
 gh repo edit <owner>/russian-brand-logos \
   --add-topic svg --add-topic logos --add-topic brand-logos --add-topic russian-brands \
