@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "items": {
+    "b2b/luxoft": {
+      "reason": "Основана в России (Москва, 2000), с 2019 года принадлежит американской DXC Technology (Luxoft, a DXC Technology Company); головная компания за рубежом.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Luxoft"
+      ]
+    },
+    "bank/homcredit": {
+      "reason": "Российский банк, но входит в международную группу Home Credit (Чехия, PPF); иностранный собственник.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D1%83%D0%BC_%D0%91%D0%B0%D0%BD%D0%BA"
+      ]
+    },
+    "design/tilda": {
+      "reason": "Основан в России (Тильда), но Tilda Publishing Inc. зарегистрирована за рубежом; российские корни, иностранная юрисдикция.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Tilda_Publishing"
+      ]
+    },
+    "docs/chestnyznak": {
+      "reason": "Государственная система маркировки, а не бренд компании.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B8_%D0%B8_%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D0%B5%D0%B6%D0%B8%D0%B2%D0%B0%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D0%B8_%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2_(%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F)"
+      ]
+    },
+    "docs/fns": {
+      "reason": "Знак государственного органа (ФНС), а не коммерческий бренд; использование регулируется иначе.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D0%B0_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8"
+      ]
+    },
+    "docs/roskomnadzor": {
+      "reason": "Знак государственного органа, а не коммерческий бренд.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80"
+      ]
+    },
+    "food/rostics": {
+      "reason": "Российская сеть, но бренд после покупки KFC в 2020-х рестарт/ребрендинг на базе иностранной сети (Yum! Brands) — спорный статус.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D1%81"
+      ]
+    },
+    "food/vkusnoitocka": {
+      "reason": "Создана на базе McDonald's после его ухода из России (2022); российский владелец, но концепция и активы — наследие иностранного бренда (ребрендинг).",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%92%D0%BA%D1%83%D1%81%D0%BD%D0%BE_%E2%80%94_%D0%B8_%D1%82%D0%BE%D1%87%D0%BA%D0%B0"
+      ]
+    },
+    "game-platforms/wargaming": {
+      "reason": "Основана в Минске (Беларусь), Wargaming Public Co. зарегистрирована на Кипре, головной офис за рубежом; не российская компания.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Wargaming"
+      ]
+    },
+    "market/fixprice": {
+      "reason": "Основана в России (2007), но Fix Price Group Ltd зарегистрирована на Кипре, листинг в Лондоне; смена юрисдикции/редомициляция.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Fix_Price"
+      ]
+    },
+    "pay/qiwi": {
+      "reason": "Группа QIWI (Qiwi plc, Кипр) основана в России, но юрисдикция иностранная; в 2024 г. реструктуризация/выделение российского бизнеса.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/NanduQ"
+      ]
+    },
+    "social/telegram": {
+      "reason": "Основан в России братьями Дуровыми (VK), но компания и разработка вынесены за рубеж (юрисдикция ОАЭ/ранее БВО), основной владелец Павел Дуров — гражданин ОАЭ/Франции; бренд международный.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Telegram"
+      ]
+    },
+    "telecom/beeline": {
+      "reason": "Торговая марка «Вымпелком» и Veon (Нидерланды); российские корни и операции, но бренд принадлежит иностранной группе (в 2023 Вымпелком продан российским менеджерам, бренд — спорно).",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D0%BB%D0%B0%D0%B9%D0%BD"
+      ]
+    },
+    "telecom/kaspersky": {
+      "reason": "Основана в Москве, но группа Kaspersky управляется через Kaspersky Labs Limited (Великобритания); международный бренд с офисами в разных юрисдикциях, в ряде стран под санкциями/запретом.",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%9A%D0%B0%D1%81%D0%BF%D0%B5%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE"
+      ]
+    },
+    "travel/aviasales": {
+      "reason": "Основан в России, но сервис принадлежит компании Go Travel Un Limited, зарегистрированной в Гонконге (по Википедии).",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%90%D0%B2%D0%B8%D0%B0%D1%81%D0%B5%D0%B9%D0%BB%D1%81"
+      ]
+    }
+  }
+}

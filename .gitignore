@@ -3,3 +3,9 @@ node_modules/
 # sync report: uploaded as a workflow artifact / issue, not committed
 reports/candidates.json
 reports/candidates.md
+
+# internal orchestration files, not for publication
+agent-context/
+CONTRACT.md
+PROGRESS.md
+reports/*-TASK-*.md

@@ -1,0 +1,1021 @@
+{
+  "version": 1,
+  "brands": {
+    "ai/alice": {
+      "origin": "Россия — Алиса AI — нейросеть, созданная компанией Яндекс",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B8%D1%81%D0%B0_AI"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "ai/gigachat": {
+      "origin": "Россия — ГигаЧат — сервис на основе искусственного интеллекта, способный общаться с пользователями в режиме диалога, генерировать по запросу тексты и изображения, писать программн",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%B3%D0%B0%D0%A7%D0%B0%D1%82"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "ai/marusia": {
+      "origin": "Россия — «Маруся» — голосовой помощник, разработанный компанией VK",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%80%D1%83%D1%81%D1%8F_(%D0%B3%D0%BE%D0%BB%D0%BE%D1%81%D0%BE%D0%B2%D0%BE%D0%B9_%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D0%BD%D0%B8%D0%BA)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "b2b/expocentre": {
+      "origin": "Россия — Центральный выставочный комплекс «Экспоцентр» — площадка для проведения выставок в Москве",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%AD%D0%BA%D1%81%D0%BF%D0%BE%D1%86%D0%B5%D0%BD%D1%82%D1%80"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "b2b/rosatom": {
+      "origin": "Россия — Государственная корпорация по атомной энергии «Росатом» — российский государственный холдинг, объединяющий более 400 предприятий атомной отрасли",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D0%B0%D1%82%D0%BE%D0%BC"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "b2b/rushydro": {
+      "origin": "Россия — «РусГидро» — российская энергетическая компания",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%81%D0%B3%D0%B8%D0%B4%D1%80%D0%BE"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "b2b/severstal": {
+      "origin": "Россия — ПАО «Северсталь» — советская и российская вертикально интегрированная сталелитейная и горнодобывающая компания, владеющая Череповецким металлургическим комбинатом, вторым",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%B0%D0%BB%D1%8C"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "b2b/skolkovo": {
+      "origin": "Россия — Инновационный центр «Сколково» — действующий в Москве современный научно-технологический инновационный комплекс по разработке и коммерциализации новых технологий, первый ",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D0%BE_(%D0%B8%D0%BD%D0%BD%D0%BE%D0%B2%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D1%86%D0%B5%D0%BD%D1%82%D1%80)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "b2b/transneft": {
+      "origin": "Россия — «Транснефть» — российская нефтепроводная компания, контролируемая государством",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D0%BD%D0%B5%D1%84%D1%82%D1%8C"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/alfa": {
+      "origin": "Россия — «Альфа-банк» — крупнейший частный банк в России, занимающий четвёртое место по размеру активов",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D1%84%D0%B0-%D0%B1%D0%B0%D0%BD%D0%BA"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/domrfbank": {
+      "origin": "Россия — Банк «Дом.РФ» — универсальный российский банк, входит в госкорпорацию ПАО «Дом.РФ»",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC.%D0%A0%D0%A4_(%D0%B1%D0%B0%D0%BD%D0%BA)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/loko": {
+      "origin": "Россия — Локо-Банк — универсальный российский коммерческий банк, основанный в 1994 году",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9B%D0%BE%D0%BA%D0%BE-%D0%B1%D0%B0%D0%BD%D0%BA"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/mts": {
+      "origin": "Россия — МТС Банк — российский коммерческий банк, основанный в 1993 году",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9C%D0%A2%D0%A1_%D0%91%D0%B0%D0%BD%D0%BA"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/otkritie": {
+      "origin": "Россия — ПАО Банк «Финансовая корпорация Открытие» — бывший российский универсальный коммерческий банк, одно из крупнейших кредитных учреждений России",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5_(%D0%B1%D0%B0%D0%BD%D0%BA)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/ozonbank": {
+      "origin": "Россия — Ozon Банк — российский коммерческий банк с универсальной лицензией, входящий в экосистему маркетплейса Ozon",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Ozon_%D0%91%D0%B0%D0%BD%D0%BA"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/psb": {
+      "origin": "Россия — ПАО «Банк ПСБ» — российский банк, основанный в 1995 году",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%BD%D0%BA_%D0%9F%D0%A1%D0%91"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/renaissance": {
+      "origin": "Россия — Банк Ренессанс — российский коммерческий банк, предоставляющий широкий спектр финансовых услуг для населения",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%BD%D0%BA_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/rshb": {
+      "origin": "Россия — АО «Российский сельскохозяйственный банк», Россельхозбанк, РСХБ — универсальный коммерческий банк со 100-процентным государственным участием",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B5%D0%BB%D1%8C%D1%85%D0%BE%D0%B7%D0%B1%D0%B0%D0%BD%D0%BA"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/sber": {
+      "origin": "Россия — Сбербанк — российский финансовый конгломерат, крупнейший универсальный банк России и Восточной Европы",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/sovkom": {
+      "origin": "Россия — Совкомбанк — российский частный универсальный коммерческий банк с головным офисом в Костроме",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B2%D0%BA%D0%BE%D0%BC%D0%B1%D0%B0%D0%BD%D0%BA"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/tbank": {
+      "origin": "Россия — Т-Банк — частный коммерческий банк, первый в России банк без отделений, работающий с клиентами исключительно дистанционно — через Интернет или колл-центр (необанк)",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A2-%D0%91%D0%B0%D0%BD%D0%BA"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/tochka": {
+      "origin": "Россия — Банк «Точка» — российский онлайн-банк без физических офисов, сфокусирован на создании экосистемы сервисов для юридических лиц, ориентирован на дистанционное обслуживание ",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D1%87%D0%BA%D0%B0_(%D0%B1%D0%B0%D0%BD%D0%BA)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/uralsib": {
+      "origin": "Россия — ПАО «Банк Уралсиб» — российский коммерческий банк",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A3%D1%80%D0%B0%D0%BB%D1%81%D0%B8%D0%B1_(%D0%B1%D0%B0%D0%BD%D0%BA)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bank/vtb": {
+      "origin": "Россия — Банк «ВТБ» (ПАО) — российский универсальный коммерческий банк c государственным участием",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%BD%D0%BA_%D0%92%D0%A2%D0%91"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "bookmakers/winline": {
+      "origin": "Россия — Winline, или «Винлайн» — российская букмекерская компания",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Winline"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "car/lada": {
+      "origin": "Россия — Lada («Лада») — советская и российская марка автомобилей, производимых АО «АвтоВАЗ»",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Lada"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "cloud/mailcloud": {
+      "origin": "Россия — Облако Mail, ранее Облако Mail.ru — облачное хранилище данных российской компании VK",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE_Mail"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "cloud/regrucloud": {
+      "origin": "Россия — Рег.ру или Reg.ru — российский регистратор доменных имён и хостинг-провайдер, аккредитованный регистратор в доменах .ru и .рф",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B3.%D1%80%D1%83"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "cloud/yandexcloud": {
+      "origin": "Россия — Яндекс.Облако — набор связанных сервисов, публичная облачная платформа от российской интернет-компании Яндекс",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Yandex_Cloud"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "crm/1c": {
+      "origin": "Россия — 1С:Предприятие — программный продукт компании «1С», предназначенный для автоматизации деятельности на предприятии",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/1%D0%A1%3A%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B5"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "crm/bitrix24": {
+      "origin": "Россия — «Битрикс24» — российский сервис для управления бизнесом",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D1%82%D1%80%D0%B8%D0%BA%D1%8124"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "crm/moysklad": {
+      "origin": "Россия — МойСклад — коммерческий SaaS продукт для управления торговлей и складского учёта, предназначенный для автоматизации малого и среднего бизнеса",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B9%D0%A1%D0%BA%D0%BB%D0%B0%D0%B4"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "delivery/delimobil": {
+      "origin": "Россия — Делимобиль — крупнейший российский сервис краткосрочной аренды автомобилей, запущенный в 2015 году",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BB%D0%B8%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "delivery/drivee": {
+      "origin": "Россия — Drivee — российский сервис для заказа легкового такси, курьерских доставок и междугородних поездок",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Drivee"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "delivery/russianpost": {
+      "origin": "Россия — Акционерное общество (АО) «Почта России» — российская государственная компания, оператор российской почтовой связи общего пользования",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%87%D1%82%D0%B0_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "delivery/sdek": {
+      "origin": "Россия — СДЭК — российский оператор доставки документов и грузов, основанный в 2000 году как оператор доставки товаров интернет-магазина korzina.ru по Сибирскому федеральному окру",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A1%D0%94%D0%AD%D0%9A"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "delivery/yandexdrive": {
+      "origin": "Россия — Яндекс Драйв — российская компания, сервис каршеринга",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%94%D1%80%D0%B0%D0%B9%D0%B2"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "delivery/yandextaxi": {
+      "origin": "Россия — Яндекс Такси — сервис онлайн-заказа такси компании «Яндекс», запущенный в Москве 26 октября 2011 года",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%A2%D0%B0%D0%BA%D1%81%D0%B8"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "developers/brusnika": {
+      "origin": "Россия — «Брусника» — российская девелоперская компания",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%91%D1%80%D1%83%D1%81%D0%BD%D0%B8%D0%BA%D0%B0_(%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "developers/cian": {
+      "origin": "Россия — «Циан» — одна из ведущих российских онлайн-платформ для операций с недвижимостью",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A6%D0%B8%D0%B0%D0%BD_(%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "developers/domrf": {
+      "origin": "Россия — ПАО «Дом.РФ» — финансовый институт развития в жилищной сфере России",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC.%D0%A0%D0%A4"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "developers/donstroy": {
+      "origin": "Россия — «Донстрой» — российская девелоперская компания",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BD%D1%81%D1%82%D1%80%D0%BE%D0%B9"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "developers/glorax": {
+      "origin": "Россия — GloraX (Глоракс) — российская девелоперская группа компаний",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/GloraX"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "developers/yandexrealty": {
+      "origin": "Россия — Яндекс.Недвижимость — сервис объявлений об аренде и продаже недвижимости, запущенный российской компанией «Яндекс» в 2010 году",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%9D%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "docs/gosuslugi": {
+      "origin": "Россия — «Госуслуги» — сервис, который предоставляет доступ к получению в дистанционном формате ключевых государственных и муниципальных услуг",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%81%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "education/geekbrains": {
+      "origin": "Россия — GeekBrains — российская компания в сфере онлайн-образования",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/GeekBrains"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "education/litres": {
+      "origin": "Россия — «ЛитРес» — агрегатор, дистрибьютор и продавец электронных книг в России и странах СНГ",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%82%D1%80%D0%B5%D1%81"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "education/skillbox": {
+      "origin": "Россия — Skillbox — российская компания, работающая в сфере онлайн-образования, основанная в 2016 году, входит в образовательный холдинг Skillbox Holding Limited",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Skillbox"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "education/yandexpracticum": {
+      "origin": "Россия — Яндекс Практикум — сервис онлайн-обучения, запущенный компанией Яндекс в 2019 году",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D1%83%D0%BC"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "food/dodopizza": {
+      "origin": "Россия — «Додо Пицца» — российская сеть предприятий быстрого питания",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%B4%D0%BE_%D0%9F%D0%B8%D1%86%D1%86%D0%B0"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "food/yandexfood": {
+      "origin": "Россия — Яндекс Еда — сервис заказа быстрой доставки еды из ресторанов и продуктов из магазинов через мобильные приложения или веб-сайт",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%95%D0%B4%D0%B0"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "food/yandexlavka": {
+      "origin": "Россия — Яндекс Лавка — российский сервис заказа готовой еды, продуктов и хозяйственных товаров на дом с локальных складов через мобильное приложение или веб-сайт",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%9B%D0%B0%D0%B2%D0%BA%D0%B0"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "food/yobidoyobi": {
+      "origin": "Россия — международная сеть доставки суши и роллов, основанная в Красноярске в 2016 году",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%81%D0%B1%D0%B8%D0%B4%D0%BE%D1%91%D0%B1%D0%B8"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "gas-stations/gazprom": {
+      "origin": "Россия — Публичное акционерное общество «Газпром» — российская транснациональная энергетическая компания, более 50 % акций которой принадлежит государству",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D0%B7%D0%BF%D1%80%D0%BE%D0%BC"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "gas-stations/lukoil": {
+      "origin": "Россия — «Лукойл» — одна из крупнейших российских нефтяных компаний, вторая по объёмам нефтедобычи в России",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9B%D1%83%D0%BA%D0%BE%D0%B9%D0%BB"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "gas-stations/rosneft": {
+      "origin": "Россия — Публичное акционерное общество «Нефтяная компания „Роснефть“» — российская нефтегазовая компания, блокирующий пакет акций которой принадлежит государственному АО «Роснефт",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D0%BD%D0%B5%D1%84%D1%82%D1%8C"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "gas-stations/tatneft": {
+      "origin": "Россия — ПАО «Татнефть» — российская нефтяная компания",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D1%82%D0%BD%D0%B5%D1%84%D1%82%D1%8C"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "health/invitro": {
+      "origin": "Россия — Инвитро, российская сеть медицинских лабораторий (по Википедии)",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B2%D0%B8%D1%82%D1%80%D0%BE"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "insurance/alfa": {
+      "origin": "Россия — Группа «Альфастрахование» — одна из крупнейших в России страховых групп по размерам страховых премий",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D1%84%D0%B0%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "insurance/ingosstrakh": {
+      "origin": "Россия — СПАО «Ингосстрах» — одна из крупнейших российских страховых компаний, относящаяся к категории системообразующих российских страховых компаний",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B3%D0%BE%D1%81%D1%81%D1%82%D1%80%D0%B0%D1%85"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "insurance/sogaz": {
+      "origin": "Россия — Страховая компания «Согаз» — крупная российская страховая компания, отнесена к разряду системообразующих, лидер одноимённой страховой группы Согаз",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B3%D0%B0%D0%B7"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "insurance/sravni": {
+      "origin": "Россия — Сравни — российский финансовый маркетплейс для подбора страховых, банковских и образовательных продуктов",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B8.%D1%80%D1%83"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "insurance/tinsurance": {
+      "origin": "Россия — АО «Т-Страхование» — российская страховая компания, входящая в состав группы Т-Банка",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A2-%D0%A1%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "mail/mailru": {
+      "origin": "Россия — Mail.ru — русскоязычный интернет-портал, принадлежащий технологической компании VK",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Mail.ru"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "map/2gis": {
+      "origin": "Россия — 2ГИС — название выпускающегося с 1999 года электронного справочника с картами городов и фирменное наименование компании-разработчика ООО «ДубльГИС»",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/2%D0%93%D0%98%D0%A1"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/auto-ru": {
+      "origin": "Россия — Auto.ru (Авто.ру) — российский автомобильный интернет-сервис, предоставляющий услуги публикации и поиска объявлений, оценки рыночной стоимости авто, подбора автокредита, ",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Auto.ru"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/avito": {
+      "origin": "Россия — Авито — российский интернет-сервис для размещения объявлений о товарах, недвижимости, вакансиях и резюме на рынке труда, а также услугах, занимающий первое место в мире с",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%90%D0%B2%D0%B8%D1%82%D0%BE"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/azbukavkusa": {
+      "origin": "Россия — «Азбука вкуса» — российская частная сеть продовольственных супермаркетов в Москве, Московской области и Санкт-Петербурге",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%90%D0%B7%D0%B1%D1%83%D0%BA%D0%B0_%D0%B2%D0%BA%D1%83%D1%81%D0%B0"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/chizhik": {
+      "origin": "Россия — «Чижик» — российская сеть продуктовых магазинов в формате «жёсткий дискаунтер», основанная в 2020 году",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D0%B6%D0%B8%D0%BA_(%D1%81%D0%B5%D1%82%D1%8C_%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%BE%D0%B2)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/citilink": {
+      "origin": "Россия — «Ситилинк» — российская торговая сеть по продаже бытовой техники и электроники, основанная в 2008 году в Москве",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D1%82%D0%B8%D0%BB%D0%B8%D0%BD%D0%BA"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/dns": {
+      "origin": "Россия — DNS — российская торговая сеть по продаже цифровой и бытовой техники, основанная в 1998 году во Владивостоке Дмитрием Алексеевым",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/DNS_(%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/edadeal": {
+      "origin": "Россия — Едадил — агрегатор скидок, спецпредложений торговых сетей и кешбэков",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%95%D0%B4%D0%B0%D0%B4%D0%B8%D0%BB"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/goldenapple": {
+      "origin": "Россия — «Золотое яблоко» — торговая сеть по продаже товаров для жизни, красоты и дома",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B5_%D1%8F%D0%B1%D0%BB%D0%BE%D0%BA%D0%BE"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/hoff": {
+      "origin": "Россия — Hoff — российская сеть по продаже мебели и товаров для дома, а также маркетплейс для поставщиков мебельных товаров",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Hoff"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/kari": {
+      "origin": "Россия — Kari — российская сеть магазинов обуви и аксессуаров, основанная в 2012 году предпринимателем Игорем Яковлевым",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Kari_(%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/krasnoeibeloe": {
+      "origin": "Россия — «Красное&Белое» — российская компания-ритейлер по продаже плохого алкоголя и одноимённая сеть магазинов формата самообслуживания",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B5%26%D0%91%D0%B5%D0%BB%D0%BE%D0%B5"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/letual": {
+      "origin": "Россия — «Лэтуаль» — российская торговая сеть по продаже косметики и парфюмерии",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9B%D1%8D%D1%82%D1%83%D0%B0%D0%BB%D1%8C"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/magnit": {
+      "origin": "Россия — «Магнит» — российская компания, объединяющая несколько сетей розничных магазинов",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D1%82_(%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/megamarket": {
+      "origin": "Россия — Мегамаркет, российский маркетплейс",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B3%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/mvideo": {
+      "origin": "Россия — «М.Видео» — российская торговая сеть по продаже бытовой техники и электроники, основанная в 1993 году",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9C.%D0%92%D0%B8%D0%B4%D0%B5%D0%BE"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/ozon": {
+      "origin": "Россия — Ozon — российский маркетплейс, основанный в 1998 году как интернет-магазин по продаже книг и видеокассет",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Ozon"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/perekrestok": {
+      "origin": "Россия — «Перекрёсток» — российская сеть супермаркетов, которой управляет X5",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%BA%D1%80%D1%91%D1%81%D1%82%D0%BE%D0%BA_(%D1%81%D0%B5%D1%82%D1%8C_%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%BE%D0%B2)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/petrovich": {
+      "origin": "Россия — Строительный торговый дом «Петрович» — российская компания, специализирующаяся на розничной и оптовой торговле строительными материалами",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87_(%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/pyaterochka": {
+      "origin": "Россия — «Пятёрочка» — российская сеть продовольственных магазинов «у дома» в составе компании X5",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9F%D1%8F%D1%82%D1%91%D1%80%D0%BE%D1%87%D0%BA%D0%B0"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/sportmaster": {
+      "origin": "Россия — «Спортмастер» — российская торговая сеть по продаже спортивных товаров, основанная в 1992 году",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/vkusvill": {
+      "origin": "Россия — «Вкусвилл» — российская розничная сеть супермаркетов и собственная торговая марка продуктов, позиционируемых как «продукты для здорового питания»",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%92%D0%BA%D1%83%D1%81%D0%B2%D0%B8%D0%BB%D0%BB"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/vseinstrumenti": {
+      "origin": "Россия — ВсеИнструменты.ру — онлайн-гипермаркет для профессионалов и бизнеса в сфере строительства, производства и услуг",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%92%D1%81%D0%B5%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B.%D1%80%D1%83"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/wildberries": {
+      "origin": "Россия — Wildberries — российский маркетплейс",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Wildberries"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/x5": {
+      "origin": "Россия — X5 — российская компания, работающая в сфере розничной торговли продовольственными товарами и управляющая торговыми сетями «Пятёрочка», «Перекрёсток», «Чижик», «Виктория»",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/X5"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/yandexmarket": {
+      "origin": "Россия — «Яндекс Маркет» — сервис компании Яндекс в сфере электронной коммерции",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%82"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "market/zoozavr": {
+      "origin": "Россия — «Зоозавр» — российская сеть магазинов товаров для животных, созданная в 2018 году как проект группы компаний «Детский мир»",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%97%D0%BE%D0%BE%D0%B7%D0%B0%D0%B2%D1%80"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "music/rbknews": {
+      "origin": "Россия — Группа компаний РБК — группа компаний и один из крупнейших мультимедийных холдингов России",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A0%D0%91%D0%9A"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "music/soyuzmultfilm": {
+      "origin": "Россия — «Союзмультфильм» — советская и российская киностудия по производству мультипликационных фильмов",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D1%8E%D0%B7%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "music/yandexmusic": {
+      "origin": "Россия — «Яндекс Музыка» — музыкальный стриминговый сервис компании «Яндекс», позволяющий слушать музыкальные композиции, их подборки, альбомы и получать персональные рекомендации",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "pay/digitalruble": {
+      "origin": "Россия — Цифровой рубль — цифровая валюта центрального банка, разрабатываемая Банком России, третья форма российской национальной валюты в дополнение к уже существующим наличной и",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B9_%D1%80%D1%83%D0%B1%D0%BB%D1%8C"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "pay/mir": {
+      "origin": "Россия — Платёжная система «Мир» — российская национальная платёжная система, предоставляющая услуги проведения платёжных операций и выпускающая банковские карты",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D1%80_(%D0%BF%D0%BB%D0%B0%D1%82%D1%91%D0%B6%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "pay/sbp": {
+      "origin": "Россия — Система быстрых платежей (СБП) — система Банка России, позволяющая гражданам переводить средства по идентификатору получателя между счетами в разных кредитных организация",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D0%B1%D1%8B%D1%81%D1%82%D1%80%D1%8B%D1%85_%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%B5%D0%B9"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "pay/yukassa": {
+      "origin": "Россия — «ЮKassа» — российский платёжный провайдер, сервис по приёму платежей через интернет в пользу юридических лиц, индивидуальных предпринимателей и некоммерческих организаций",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%AEKassa"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "pay/yumoney": {
+      "origin": "Россия — «ЮMoney» — сервис электронных платежей",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%AEMoney"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "search/yandex": {
+      "origin": "Россия — «Яндекс» — российская транснациональная компания в отрасли информационных технологий, владеющая одноимённой системой поиска в интернете и интернет-сервисами в нескольких ",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "social/max": {
+      "origin": "Россия — «Макс» — российский мессенджер, являющийся внутренним сервисом одноимённой цифровой платформы",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D1%81_(%D0%BC%D0%B5%D1%81%D1%81%D0%B5%D0%BD%D0%B4%D0%B6%D0%B5%D1%80)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "social/odnoklassniki": {
+      "origin": "Россия — «Однокла́ссники» (OK.ru) — российская социальная сеть, принадлежащая VK",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%BD%D0%BE%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BD%D0%B8%D0%BA%D0%B8_(%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "social/vk": {
+      "origin": "Россия — «ВКонтакте» — российская социальная сеть со штаб-квартирой в Санкт-Петербурге",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%92%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "store/boosty": {
+      "origin": "Россия — Boosty — платформа монетизации авторского контента",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Boosty"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "store/donationalerts": {
+      "origin": "Россия — DonationAlerts — крупнейший российский сервис монетизации стримов",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/DonationAlerts"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "store/rustore": {
+      "origin": "Россия — RuStore — российский магазин приложений для мобильных устройств, разработанный корпорацией VK при поддержке Министерства цифрового развития, связи и массовых коммуникаций",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/RuStore"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "telecom/megafon": {
+      "origin": "Россия — «Мегафон» — российская телекоммуникационная компания, один из самых крупных операторов сотовой связи, предоставляющих телекоммуникационные услуги, цифровые и медийные сер",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B3%D0%B0%D1%84%D0%BE%D0%BD_(%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "telecom/yota": {
+      "origin": "Россия — Yota (Йота) — российская телекоммуникационная компания, федеральный оператор беспроводной связи, с федеральным покрытием в сетях 2G/3G/4G, который работает по модели Full",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Yota"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "travel/izhavia": {
+      "origin": "Россия — Ижавиа — российская авиакомпания, осуществляющая регулярные внутренние и грузовые авиаперевозки из Ижевска и других городов России",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%98%D0%B6%D0%B0%D0%B2%D0%B8%D0%B0"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "travel/rzd": {
+      "origin": "Россия — Российские железные дороги (полное наименование — открытое акционерное общество «Российские железные дороги» — российская государственная вертикально интегрированная комп",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B5_%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5_%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%B8"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "travel/tutu": {
+      "origin": "Россия — Tutu.ru — российский онлайн-сервис для организации путешествий",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Tutu.ru"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "travel/uralairlines": {
+      "origin": "Россия — Уральские авиалинии — российская пассажирская авиакомпания, занимающаяся регулярными и чартерными внутренними и международными перевозками",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A3%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B5_%D0%B0%D0%B2%D0%B8%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%B8"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "tv/2x2": {
+      "origin": "Россия — «2x2» — общероссийский телеканал, эфирная сетка которого состоит преимущественно из мультфильмов и передач, рассчитанных на подростковую и взрослую аудиторию",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/2x2"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "tv/karusel": {
+      "origin": "Россия — «Карусель» — общероссийский федеральный телеканал для детей и подростков",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D1%83%D1%81%D0%B5%D0%BB%D1%8C_(%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB)"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "tv/ntv": {
+      "origin": "Россия — НТВ — общероссийский федеральный телеканал",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9D%D0%A2%D0%92"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "tv/rentv": {
+      "origin": "Россия — РЕН ТВ — российский федеральный телеканал",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A0%D0%95%D0%9D_%D0%A2%D0%92"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "tv/sts": {
+      "origin": "Россия — «СТС» — российский федеральный телеканал",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A1%D0%A2%D0%A1"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "tv/tnt": {
+      "origin": "Россия — ТНТ — общероссийский федеральный телеканал",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A2%D0%9D%D0%A2"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "video/kinopoisk": {
+      "origin": "Россия — «Кинопоиск» — русскоязычный интернет-сервис с условно свободно редактируемой базой данных и интернет-издание о кинематографе и телевидении",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D0%BD%D0%BE%D0%BF%D0%BE%D0%B8%D1%81%D0%BA"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "video/kion": {
+      "origin": "Россия — «Кион» — российская мультимедийная онлайн-платформа, созданная компанией МТС",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D0%BE%D0%BD"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "video/okko": {
+      "origin": "Россия — Okko — российский стриминговый сервис и онлайн-кинотеатр, запущенный в 2011 году под названием Yota Play",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Okko"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "video/rutube": {
+      "origin": "Россия — Rutube — российский онлайн-сервис для хостинга и просмотра видео",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Rutube"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "video/vkplay": {
+      "origin": "Россия — VK Play — российское игровое подразделение компании VK",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/VK_Play"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "video/vkvideo": {
+      "origin": "Россия — VK Видео — интернет-видеоплатформа, запущенная VK в 2021 году",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/VK_%D0%92%D0%B8%D0%B4%D0%B5%D0%BE"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "video/wink": {
+      "origin": "Россия — Wink — цифровой видеосервис компании «Ростелеком», объединяющий преимущества интерактивного телевидения и онлайн-кинотеатра",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/Wink"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "web/artlebedev": {
+      "origin": "Россия — «Студия Артемия Лебедева» — российская дизайнерская компания, основанная Артемием Лебедевым в 1995 году",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%83%D0%B4%D0%B8%D1%8F_%D0%90%D1%80%D1%82%D0%B5%D0%BC%D0%B8%D1%8F_%D0%9B%D0%B5%D0%B1%D0%B5%D0%B4%D0%B5%D0%B2%D0%B0"
+      ],
+      "owner": null,
+      "owner_source": null
+    },
+    "web/regru": {
+      "origin": "Россия — Рег.ру или Reg.ru — российский регистратор доменных имён и хостинг-провайдер, аккредитованный регистратор в доменах .ru и .рф",
+      "sources": [
+        "https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B3.%D1%80%D1%83"
+      ],
+      "owner": null,
+      "owner_source": null
+    }
+  }
+}
