@@ -1,0 +1,15 @@
+{
+  "name": "russian-brand-logos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SVG logos of Russian brands, mirrored from the Trace Logos catalog",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "validate": "node scripts/validate.mjs",
+    "render": "node scripts/render-readme.mjs"
+  }
+}

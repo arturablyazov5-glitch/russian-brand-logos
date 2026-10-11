@@ -1,0 +1,52 @@
+name: Removal request · Запрос на удаление
+description: Ask to remove or correct a logo · Попросить удалить или исправить логотип
+title: "Removal request: "
+labels: ["removal-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is for rights holders and their representatives. Please do not post personal data or confidential documents here: issues are public.
+        Форма для правообладателей и их представителей. Не публикуйте здесь персональные данные и конфиденциальные документы: issue видны всем.
+  - type: input
+    id: brand
+    attributes:
+      label: Brand ID · ID бренда
+      description: "Path in logos/, e.g. bank/sber · Путь в logos/, например bank/sber"
+      placeholder: bank/sber
+    validations:
+      required: true
+  - type: dropdown
+    id: action
+    attributes:
+      label: Request · Запрос
+      options:
+        - Remove the logo · Удалить логотип
+        - Replace with the current version · Заменить на актуальную версию
+        - Correct the rights holder in NOTICE.md · Исправить правообладателя в NOTICE.md
+    validations:
+      required: true
+  - type: dropdown
+    id: relation
+    attributes:
+      label: Your relation to the brand · Ваше отношение к бренду
+      options:
+        - Rights holder · Правообладатель
+        - Authorized representative · Уполномоченный представитель
+        - Other · Другое
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details · Подробности
+      description: "Reason and a public link confirming the rights (brand website, trademark registry) · Причина и открытая ссылка, подтверждающая права (сайт бренда, реестр товарных знаков)"
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation · Подтверждение
+      options:
+        - label: I am the rights holder or authorized to act on their behalf · Я правообладатель или уполномочен действовать от его имени
+          required: true

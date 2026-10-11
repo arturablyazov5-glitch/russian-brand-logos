@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+# sync report: uploaded as a workflow artifact / issue, not committed
+reports/candidates.json
+reports/candidates.md

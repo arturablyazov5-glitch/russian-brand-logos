@@ -1,0 +1,75 @@
+name: Sync logos
+
+on:
+  schedule:
+    - cron: "23 3 * * *" # once a day, 06:23 MSK
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Sync from trace-logos.ru
+        run: node scripts/sync.mjs
+
+      - name: Validate
+        run: node scripts/validate.mjs --online
+
+      - name: Commit changes
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore(sync): update logos from trace-logos.ru"
+          git push
+
+      # New catalog brands are never added automatically: they are reported for manual review.
+      - name: Count items to review
+        id: report
+        if: always()
+        run: |
+          if [ -f reports/candidates.json ]; then
+            n=$(node -e "const r=require('./reports/candidates.json');console.log(r.candidates.length+r.missing.length+r.rejected.length)")
+          else
+            n=0
+          fi
+          echo "count=$n" >> "$GITHUB_OUTPUT"
+
+      - name: Upload report
+        if: always() && steps.report.outputs.count != '0'
+        uses: actions/upload-artifact@v4
+        with:
+          name: sync-report
+          path: reports/candidates.*
+
+      - name: Open or update review issue
+        if: always() && steps.report.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create sync-candidates --color 7352ec --description "Catalog brands to review" --force
+          num=$(gh issue list --label sync-candidates --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ -n "$num" ]; then
+            gh issue comment "$num" --body-file reports/candidates.md
+          else
+            gh issue create --title "Sync: brands to review" --label sync-candidates --body-file reports/candidates.md
+          fi
