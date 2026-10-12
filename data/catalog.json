@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "https://trace-logos.ru/logos.json",
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "categories": [
     {
       "slug": "market",
@@ -6773,6 +6773,14 @@
       "categoryName": "Сайты и CMS",
       "url": "https://trace-logos.ru/logos/design/webflow/",
       "svgUrl": "https://trace-logos.ru/assets/logos/svgs/webflow.svg"
+    },
+    {
+      "id": "web/framer",
+      "name": "Framer",
+      "categorySlug": "web",
+      "categoryName": "Сайты и CMS",
+      "url": "https://trace-logos.ru/logos/design/framer/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/framer.svg"
     },
     {
       "id": "web/wordpress",
