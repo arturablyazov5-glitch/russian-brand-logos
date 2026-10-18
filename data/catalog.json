@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "https://trace-logos.ru/logos.json",
-  "updated": "2026-10-11",
+  "updated": "2026-10-18",
   "categories": [
     {
       "slug": "market",
@@ -2043,6 +2043,15 @@
       "svgUrl": "https://trace-logos.ru/assets/logos/svgs/karusel-full.svg"
     },
     {
+      "id": "ai/higgsfield",
+      "name": "Higgsfield",
+      "name_en": "Higgsfield",
+      "categorySlug": "ai",
+      "categoryName": "Нейросети",
+      "url": "https://trace-logos.ru/logos/ai/higgsfield/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/higgsfield.svg"
+    },
+    {
       "id": "ai/chatgpt",
       "name": "ChatGPT",
       "categorySlug": "ai",
@@ -2924,6 +2933,15 @@
       "categoryName": "Музыка и медиа",
       "url": "https://trace-logos.ru/logos/media/kionstroki/",
       "svgUrl": "https://trace-logos.ru/assets/logos/svgs/kion_stroki.svg"
+    },
+    {
+      "id": "design/affinity",
+      "name": "Affinity",
+      "name_en": "Affinity",
+      "categorySlug": "design",
+      "categoryName": "Дизайн",
+      "url": "https://trace-logos.ru/logos/design/affinity/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/affinity.svg"
     },
     {
       "id": "design/figma",
@@ -4286,6 +4304,15 @@
       "categoryName": "Еда и рестораны",
       "url": "https://trace-logos.ru/logos/food/dimcoffee/",
       "svgUrl": "https://trace-logos.ru/assets/logos/svgs/dimcoffee.svg"
+    },
+    {
+      "id": "docs/eac",
+      "name": "EAC",
+      "name_en": "EAC",
+      "categorySlug": "docs",
+      "categoryName": "Документы и ЭДО",
+      "url": "https://trace-logos.ru/logos/docs/eac/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/eac-eurasian-conformity.svg"
     },
     {
       "id": "docs/madeinrussia",
@@ -7143,6 +7170,24 @@
       "svgUrl": "https://trace-logos.ru/assets/logos/svgs/invitro.svg"
     },
     {
+      "id": "tech/lenovo",
+      "name": "Lenovo",
+      "name_en": "Lenovo",
+      "categorySlug": "tech",
+      "categoryName": "Техника и гаджеты",
+      "url": "https://trace-logos.ru/logos/tech/lenovo/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/lenovo.svg"
+    },
+    {
+      "id": "tech/marshall",
+      "name": "Marshall",
+      "name_en": "Marshall",
+      "categorySlug": "tech",
+      "categoryName": "Техника и гаджеты",
+      "url": "https://trace-logos.ru/logos/tech/marshall/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/marshall.svg"
+    },
+    {
       "id": "tech/xiaomi",
       "name": "Xiaomi",
       "categorySlug": "tech",
@@ -7431,6 +7476,15 @@
       "url": "https://trace-logos.ru/logos/hr/habrcareer/",
       "svgUrl": "https://trace-logos.ru/assets/logos/svgs/placeholder.svg",
       "comingSoon": true
+    },
+    {
+      "id": "car/lamborghini",
+      "name": "Lamborghini",
+      "name_en": "Lamborghini",
+      "categorySlug": "car",
+      "categoryName": "Автомобили",
+      "url": "https://trace-logos.ru/logos/car/lamborghini/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/lamborghini.svg"
     },
     {
       "id": "car/mercedes",
