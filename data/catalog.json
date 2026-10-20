@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "https://trace-logos.ru/logos.json",
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "categories": [
     {
       "slug": "market",
@@ -786,6 +786,14 @@
       "svgUrl": "https://trace-logos.ru/assets/logos/svgs/hoff.svg"
     },
     {
+      "id": "market/chitaigorod",
+      "name": "Читай-город",
+      "categorySlug": "market",
+      "categoryName": "Маркетплейсы и ритейл",
+      "url": "https://trace-logos.ru/logos/market/chitaigorod/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/chitai-gorod.svg"
+    },
+    {
       "id": "social/telegram",
       "name": "Telegram",
       "categorySlug": "social",
@@ -1085,6 +1093,22 @@
       "categoryName": "Мессенджеры и соцсети",
       "url": "https://trace-logos.ru/logos/social/yandexritm/",
       "svgUrl": "https://trace-logos.ru/assets/logos/svgs/yandex-rythm.svg"
+    },
+    {
+      "id": "social/livejournal",
+      "name": "LiveJournal",
+      "categorySlug": "social",
+      "categoryName": "Мессенджеры и соцсети",
+      "url": "https://trace-logos.ru/logos/social/livejournal/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/livejournal.svg"
+    },
+    {
+      "id": "social/wechat",
+      "name": "WeChat",
+      "categorySlug": "social",
+      "categoryName": "Мессенджеры и соцсети",
+      "url": "https://trace-logos.ru/logos/social/wechat/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/wechat.svg"
     },
     {
       "id": "bank/domrfbank",
@@ -1988,6 +2012,14 @@
       "categoryName": "Видео и стриминг",
       "url": "https://trace-logos.ru/logos/media/wink/",
       "svgUrl": "https://trace-logos.ru/assets/logos/svgs/wink.svg"
+    },
+    {
+      "id": "video/trovo",
+      "name": "Trovo",
+      "categorySlug": "video",
+      "categoryName": "Видео и стриминг",
+      "url": "https://trace-logos.ru/logos/media/trovo/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/trovo.svg"
     },
     {
       "id": "tv/tnt",
@@ -5611,6 +5643,15 @@
       "categoryName": "Путешествия",
       "url": "https://trace-logos.ru/logos/travel/ostrovok/",
       "svgUrl": "https://trace-logos.ru/assets/logos/svgs/ostrovok.svg"
+    },
+    {
+      "id": "travel/hermitage",
+      "name": "Эрмитаж",
+      "name_en": "Hermitage",
+      "categorySlug": "travel",
+      "categoryName": "Путешествия",
+      "url": "https://trace-logos.ru/logos/travel/hermitage/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/hermitage.svg"
     },
     {
       "id": "cloud/googledrive",

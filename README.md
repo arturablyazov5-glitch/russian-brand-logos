@@ -20,7 +20,7 @@ Files live at `logos/<category>/<slug>.svg`; the path matches the brand's catalo
 
 ### What the full catalog has
 
-The [catalog](https://trace-logos.ru/logos/?utm_source=github&utm_medium=repository&utm_campaign=russian-brand-logos) has 811 logos in 44 categories, including international brands. On top of the SVG files kept here it offers:
+The [catalog](https://trace-logos.ru/logos/?utm_source=github&utm_medium=repository&utm_campaign=russian-brand-logos) has 816 logos in 44 categories, including international brands. On top of the SVG files kept here it offers:
 
 - PNG files alongside SVG;
 - logo variants: horizontal lockups, English lettering, earlier versions;
@@ -74,7 +74,7 @@ This is an independent library, not affiliated with or endorsed by the brand own
 
 ### Что есть в полном каталоге
 
-В [каталоге](https://trace-logos.ru/logos/?utm_source=github&utm_medium=repository&utm_campaign=russian-brand-logos) 811 логотипов в 44 категориях, включая международные бренды. Помимо SVG, которые лежат здесь, там есть:
+В [каталоге](https://trace-logos.ru/logos/?utm_source=github&utm_medium=repository&utm_campaign=russian-brand-logos) 816 логотипов в 44 категориях, включая международные бренды. Помимо SVG, которые лежат здесь, там есть:
 
 - PNG‑файлы рядом с SVG;
 - варианты логотипа: горизонтальные, с латиницей, прежние версии;
