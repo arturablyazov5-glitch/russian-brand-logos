@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "https://trace-logos.ru/logos.json",
-  "updated": "2026-10-19",
+  "updated": "2026-10-27",
   "categories": [
     {
       "slug": "market",
@@ -6417,6 +6417,15 @@
       "categoryName": "Отзывы и справочники",
       "url": "https://trace-logos.ru/logos/reviews/yell/",
       "svgUrl": "https://trace-logos.ru/assets/logos/svgs/yell.svg"
+    },
+    {
+      "id": "reviews/otzovik",
+      "name": "Отзовик",
+      "name_en": "Otzovik",
+      "categorySlug": "reviews",
+      "categoryName": "Отзывы и справочники",
+      "url": "https://trace-logos.ru/logos/reviews/otzovik/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/otzovik.svg"
     },
     {
       "id": "telecom/applephone",
