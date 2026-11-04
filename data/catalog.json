@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "https://trace-logos.ru/logos.json",
-  "updated": "2026-10-27",
+  "updated": "2026-11-04",
   "categories": [
     {
       "slug": "market",
@@ -2262,6 +2262,14 @@
       "categoryName": "Нейросети",
       "url": "https://trace-logos.ru/logos/ai/grok/",
       "svgUrl": "https://trace-logos.ru/assets/logos/svgs/grok.svg"
+    },
+    {
+      "id": "ai/grokbot",
+      "name": "Grok Bot",
+      "categorySlug": "ai",
+      "categoryName": "Нейросети",
+      "url": "https://trace-logos.ru/logos/ai/grokbot/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/grok-bot.svg"
     },
     {
       "id": "ai/imageplayground",
@@ -6890,6 +6898,15 @@
       "categoryName": "Сайты и CMS",
       "url": "https://trace-logos.ru/logos/design/regru/",
       "svgUrl": "https://trace-logos.ru/assets/logos/svgs/reg-ru.svg"
+    },
+    {
+      "id": "web/nicru",
+      "name": "Руцентр",
+      "name_en": "RU-CENTER",
+      "categorySlug": "web",
+      "categoryName": "Сайты и CMS",
+      "url": "https://trace-logos.ru/logos/design/nicru/",
+      "svgUrl": "https://trace-logos.ru/assets/logos/svgs/nic-ru.svg"
     },
     {
       "id": "web/timeweb",
